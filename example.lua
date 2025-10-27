@@ -1,3 +1,5 @@
+local StringBuilder = include("string_builder.lua")
+
 local function test_normal() -- Ran 6.858s on my dev server
 	local time = os.clock()
 	local str = ""
